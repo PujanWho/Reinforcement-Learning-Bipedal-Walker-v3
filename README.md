@@ -103,14 +103,14 @@ The SAC agent's performance is measured over 1000 episodes, with convergence beh
             <source src="agent/agent-video,episode 700, reward 288.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <p><strong>Video 1:</strong> SAC agent<strong>Fig1</strong> training progression in BipedalWalker-v3.</p>
+        <p><strong>Video 1:</strong> SAC agent training progression in BipedalWalker-v3.</p>
     </div>
     <div style="text-align: center;">
         <video width="400" controls>
             <source src="agent/agent-hardcore-video, episode=400 score=-80.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <p><strong>Video 2:</strong> SAC agent<strong>Fig2:</strong> training progression in BipedalWalker-v3 Hardcore.</p>
+        <p><strong>Video 2:</strong> SAC agent training progression in BipedalWalker-v3 Hardcore.</p>
     </div>
 </div>
 
@@ -135,8 +135,4 @@ To run the reinforcement learning model, follow these steps:
 
 1. **Install Required Libraries**:
    ```bash
-   pip install torch torchvision
-2. **Run the SAC Agent**:
-   ```bash
-   python sac_agent.py
-
+  
