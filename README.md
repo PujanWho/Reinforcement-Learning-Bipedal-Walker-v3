@@ -93,7 +93,7 @@ The SAC agent's performance is measured over 1000 episodes, with convergence beh
     </div>
     <div style="text-align: center;">
         <img src="BipedalWalker 1000 episodes.png" alt="Fig 3: BipedalWalker-v3(alternate Run) episode rewards" width="400"/>
-        <p><strong>Figure 3:</strong> BipedalWalker-v3 (alternate Run) episode rewards from 0 to 1000 episodes.</p>
+        <p><strong>Figure 3:</strong> BipedalWalker-v3 (alternate Run of <strong>Fig 1</strong>) episode rewards from 0 to 1000 episodes.</p>
     </div>
 </div>
 
