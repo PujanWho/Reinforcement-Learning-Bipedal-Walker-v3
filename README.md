@@ -100,14 +100,14 @@ The SAC agent's performance is measured over 1000 episodes, with convergence beh
 <div style="display: flex; justify-content: space-around; margin-top: 20px;">
     <div style="text-align: center;">
         <video width="400" controls>
-            <source src="Reinforcement-Learning-Bipedal-Walker-v3\agent\agent-video,episode 700, reward 288.mp4" type="video/mp4">
+            <source src="agent\agent-video,episode 700, reward 288.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p><strong>Video 1:</strong> SAC agent<strong>Fig1</strong> training progression in BipedalWalker-v3.</p>
     </div>
     <div style="text-align: center;">
         <video width="400" controls>
-            <source src="Reinforcement-Learning-Bipedal-Walker-v3\agent\agent-hardcore-video, episode=400 score=-80.mp4" type="video/mp4">
+            <source src="agent\agent-hardcore-video, episode=400 score=-80.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p><strong>Video 2:</strong> SAC agent<strong>Fig2:</strong> training progression in BipedalWalker-v3 Hardcore.</p>
