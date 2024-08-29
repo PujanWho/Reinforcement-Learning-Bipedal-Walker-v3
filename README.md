@@ -10,9 +10,9 @@ This project explores the use of the Soft Actor-Critic (SAC) reinforcement learn
 
 SAC aims to maximize a trade-off between expected return and entropy, leading to a more exploratory policy. The objective function is formulated as:
 
-$\[
+$`\[
 J(\pi) = \sum_{t=0}^{T} \mathbb{E}_{(s_t,a_t)\sim\rho_\pi} \left[ r(s_t, a_t) + \alpha H(\pi(\cdot|s_t)) \right]
-\]$
+\]`$
 
 Where:
 - \( r(s_t, a_t) \) is the reward received after taking action \( a_t \) in state \( s_t \).
