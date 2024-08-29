@@ -82,6 +82,21 @@ The SAC algorithm can be summarized as follows:
 
 The SAC agent's performance is measured over 1000 episodes, with convergence behaviors analyzed. The results show that the agent initially learns to improve performance with progress seen around 200 episodes. However, performance plateaus around 400 episodes, indicating potential challenges in the agent’s learning process.
 
+<div style="display: flex; justify-content: space-around;">
+    <div style="text-align: center;">
+        <img src="BipedalWalkerNormal.png" alt="Fig 1: BipedalWalker-v3 episode rewards" width="400"/>
+        <p><strong>Figure 1:</strong> BipedalWalker-v3 episode rewards from 0 to 1000 episodes.</p>
+    </div>
+    <div style="text-align: center;">
+        <img src="BipedalWalkerHardcore.png" alt="Fig 2: BipedalWalker-v3 Hardcore episode rewards" width="400"/>
+        <p><strong>Figure 2:</strong> BipedalWalker-v3 (Hardcore) episode rewards from 0 to 1000 episodes.</p>
+    </div>
+</div>
+<div style="text-align: center;">
+        <img src="BipdedalWalker 1000 episodes.png" alt="Fig 3: BipedalWalker-v3 epsodes rewards 2" width="400"/>
+        <p><strong>Figure 2:</strong> BipedalWalker-v3(alternate run) episode rewards from 0 to 1000 episodes.</p>
+    </div>
+
 ### Limitations
 
 - **Exploration vs. Exploitation Trade-off**: The balance between exploration and exploitation might not be optimal, leading to inconsistent performance.
