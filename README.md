@@ -102,22 +102,6 @@ Located - "agent/agent-video,episode 700, reward 288.mp4"</p>
 
 <p><strong>Video 2:</strong> SAC agent<strong>Fig2:</strong> training progression in BipedalWalker-v3 Hardcore. 
 Located - "agent/agent-hardcore-video, episode=400 score=-80.mp4"</p>
-<div style="display: flex; justify-content: space-around; margin-top: 20px;">
-    <div style="text-align: center;">
-        <video width="400" controls>
-            <source src="agent/agent-video,episode 700, reward 288.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        
-    </div>
-    <div style="text-align: center;">
-        <video width="400" controls>
-            <source src="agent" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        
-    </div>
-</div>
 
 ### Limitations
 
