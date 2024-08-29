@@ -67,6 +67,18 @@ The target networks are updated via a soft update mechanism:
 
 Where \( \tau \) is the soft update parameter.
 
+#### 5. Algorithm
+
+The SAC algorithm can be summarized as follows:
+
+1. **Initialize** policy network \( \pi_\theta \), Q-networks \( Q_{\phi_1} \) and \( Q_{\phi_2} \), and target Q-networks \( Q_{\phi'_1} \) and \( Q_{\phi'_2} \).
+2. **For each iteration**:
+   - a. **Sample** a batch of transitions \( (s, a, r, s', d) \) from the replay buffer.
+   - b. **Compute** the target Q-value \( y \).
+   - c. **Update** the Q-networks by minimizing the critic loss.
+   - d. **Update** the policy network by minimizing the actor loss.
+   - e. **Perform** a soft update of the target Q-networks.
+
 ### Implementation Details
 
 - **Framework**: PyTorch is used for constructing the neural networks and optimizing them. The actor and critic networks are multi-layer perceptrons with ReLU activations and dropout layers to improve generalization.
@@ -96,13 +108,4 @@ The SAC agent's performance is measured over 1000 episodes, with convergence beh
 2. **Adaptive Entropy Adjustment**: Implement an adaptive mechanism for the temperature parameter \( \alpha \).
 3. **Network Architecture Optimization**: Experiment with different network architectures, including more advanced options like recurrent neural networks (RNNs).
 4. **Reward Shaping**: Modify the reward structure to incentivize more efficient walking patterns.
-5. **Longer Training Duration**: Extend the training duration beyond 1000 episodes.
-6. **Experience Replay Enhancements**: Implement prioritized experience replay for more stable learning.
-
-## Running the Model
-
-To run the reinforcement learning model, follow these steps:
-
-1. **Install Required Libraries**:
-   ```bash
-   pip install torch torchvision
+5. **Longer Training Duration**
